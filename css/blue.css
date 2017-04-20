@@ -25,6 +25,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 body {
 	line-height: 1;
 }
+
 /* tables still need 'cellspacing="0"' in the markup */
 table {
 	border-collapse: separate;
@@ -188,7 +189,8 @@ h2 {
 p {
 	width:500px;
 	margin-left:40px;
-	float:right;	
+	float:right;
+	align="justify";	
 }
 
 p img {
@@ -246,6 +248,14 @@ h6 {
 	color:#7b90b5;
 }
 
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 0.5em;
+    padding: 0;
+}
 em {
 	font-family: Georgia, "Times New Roman", serif;
 	font-style: italic;
