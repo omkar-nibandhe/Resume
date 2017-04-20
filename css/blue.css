@@ -160,17 +160,18 @@ a:hover {
 
 h1  {
 	width:250px;
-	font-size:42px;
+	font-size:60px;
 	color:#1b4491;
 	margin-bottom:3px;
 	clear:both;
 }
 
 h1 span {
-	font-size:21px;
+	font-size:25px;
 	display:block;
 	color:#1b4491;
 	margin-top:-5px;
+	align="justify";
 }
 
 h2 {
@@ -181,7 +182,7 @@ h2 {
 	padding:0;
 	margin:0;
 	clear:both;
-	font-size:22px;
+	font-size:25px;
 	color:#1b4491;
 	margin-bottom:-12px;
 }
@@ -426,18 +427,22 @@ img.portrait {
 
 .self ul li.ad {
 	background-image:url(../images/icn-ad.gif);
+	align="justify";
 }
 
 .self ul li.mail {
 	background-image:url(../images/icn-mail.gif);
+		align="justify";
 }
 
 .self ul li.tel {
 	background-image:url(../images/icn-tel.gif);
+	align="justify";
 }
 
 .self ul li.web {
 	background-image:url(../images/icn-web.gif);
+	align="justify";
 }
 
 .self ul li {
